@@ -8,11 +8,11 @@ nav:
   - Getting started:
     - Getting started for admins: 'getting-started/getting-started-for-admins/index.md'
     - Adding components: 'getting-started/adding-components/index.md'
-    - Openapi specs: 'getting-started/openapi-specs/index.md'
-    - Scaffolding components: 'getting-started/scaffolding-components/index.md'
-    - Technical documentation: 'getting-started/technical-documentation/index.md'
-    - Updating the ui: 'getting-started/updating-the-ui/index.md'
-    - User management: 'getting-started/user-management/index.md'
+    - Using OpenAPI Specs: 'getting-started/openapi-specs/index.md'
+    - Scaffolding Components: 'getting-started/scaffolding-components/index.md'
+    - Using TechDocs: 'getting-started/technical-documentation/index.md'
+    - Updating the UI: 'getting-started/updating-the-ui/index.md'
+    - User Management in Roadie: 'getting-started/user-management/index.md'
   - Integrations:
     - Argocd: 'integrations/argocd/index.md'
     - BuildKite: 'integrations/buildkite/index.md'
