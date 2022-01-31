@@ -15,7 +15,6 @@ To add a new user click the invite a new user button and enter the users email a
 
 ![invite-user-button.png](./invite-user-button.png)
 
-
 Enter the users email and click send.
 
 ![add-user-dialog.png](./add-user-dialog.png)
@@ -26,4 +25,4 @@ We will send an email to the users email address. The user will be asked to set 
 At present we do not provide the ability to remove a user. However, we can take care of that on your behalf. Please speak to a support person and we will do that for you.
 
 ## Single Sign On
-Roadie supports Single Sign On via Okta or other providers. Please talk to the sales team if you would like to use Single Sign on.
+Roadie supports Single Sign On via Okta or other providers. Please reach out to support via the chat widget in the bottom right corner of Roadie Backstage.

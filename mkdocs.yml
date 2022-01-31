@@ -6,14 +6,15 @@ plugins:
 
 nav:
   - Getting started:
-    - Getting started for admins: 'getting-started/getting-started-for-admins/index.md'
+    - Initial configuration: 'getting-started/getting-started-for-admins/index.md'
     - Adding components: 'getting-started/adding-components/index.md'
-    - Using OpenAPI Specs: 'getting-started/openapi-specs/index.md'
-    - Scaffolding Components: 'getting-started/scaffolding-components/index.md'
     - Using TechDocs: 'getting-started/technical-documentation/index.md'
+    - Adding plugins: 'getting-started/configuring-backstage-plugins/index.md'
+    - Inviting users: 'getting-started/user-management/index.md'
+    - Adding API Specs: 'getting-started/openapi-specs/index.md'
+    - Scaffolding Components: 'getting-started/scaffolding-components/index.md'
     - Updating the UI: 'getting-started/updating-the-ui/index.md'
-    - User Management in Roadie: 'getting-started/user-management/index.md'
-  - Integrations:
+  - Backstage plugins:
     - Argocd: 'integrations/argocd/index.md'
     - BuildKite: 'integrations/buildkite/index.md'
     - Bugsnag: 'integrations/bugsnag/index.md'
@@ -35,8 +36,9 @@ nav:
     - Snyk: 'integrations/snyk/index.md'
     - Sonarqube: 'integrations/sonarqube/index.md'
     - Travis ci: 'integrations/travis-ci/index.md'
-  - Configuration:
     - Tech radar: 'configuration/tech-radar/index.md'
   - Custom plugins:
     - Artifactory: 'custom-plugins/artifactory/index.md'
     - Configuring: 'custom-plugins/configuring/index.md'
+  - Integrations:
+    - GitHub App Permissions: 'integrations/github-app-permissions/index.md'
