@@ -11,11 +11,10 @@ nav:
     - Using TechDocs: 'getting-started/technical-documentation/index.md'
     - Adding plugins: 'getting-started/configuring-backstage-plugins/index.md'
     - Inviting users: 'getting-started/user-management/index.md'
-    - Adding API Specs: 'getting-started/openapi-specs/index.md'
-    - Scaffolding Components: 'getting-started/scaffolding-components/index.md'
-    - Updating the UI: 'getting-started/updating-the-ui/index.md'
-  - Backstage plugins:
-    - Argocd: 'integrations/argocd/index.md'
+    - Adding API specs: 'getting-started/openapi-specs/index.md'
+    - Scaffolding components: 'getting-started/scaffolding-components/index.md'
+  - Using Backstage plugins:
+    - Argo CD: 'integrations/argocd/index.md'
     - BuildKite: 'integrations/buildkite/index.md'
     - Bugsnag: 'integrations/bugsnag/index.md'
     - Catalog graph: 'integrations/catalog-graph/index.md'
@@ -40,5 +39,7 @@ nav:
   - Custom plugins:
     - Artifactory: 'custom-plugins/artifactory/index.md'
     - Configuring: 'custom-plugins/configuring/index.md'
-  - Integrations:
-    - GitHub App Permissions: 'integrations/github-app-permissions/index.md'
+  - Details:
+    - GitHub app permissions: 'integrations/github-app-permissions/index.md'
+    - Setting secrets: 'details/setting-secrets/index.md'
+    - Updating the UI: 'getting-started/updating-the-ui/index.md'
