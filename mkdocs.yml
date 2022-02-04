@@ -39,6 +39,7 @@ nav:
   - Custom plugins:
     - Artifactory: 'custom-plugins/artifactory/index.md'
     - Configuring: 'custom-plugins/configuring/index.md'
+    - Authenticated Proxy: 'custom-plugins/authenticated-proxy/index.md'
   - Details:
     - GitHub app permissions: 'integrations/github-app-permissions/index.md'
     - Setting secrets: 'details/setting-secrets/index.md'
