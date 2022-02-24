@@ -36,6 +36,7 @@ nav:
     - Sonarqube: 'integrations/sonarqube/index.md'
     - Travis ci: 'integrations/travis-ci/index.md'
     - Tech radar: 'configuration/tech-radar/index.md'
+    - Required annotations: 'integrations/index.mdrequired-annotations'
   - Custom plugins:
     - Artifactory: 'custom-plugins/artifactory/index.md'
     - Configuring: 'custom-plugins/configuring/index.md'
