@@ -25,6 +25,7 @@ nav:
     - Github org: 'integrations/github-org/index.md'
     - Github token: 'integrations/github-token/index.md'
     - Google oauth client: 'integrations/google-oauth-client/index.md'
+    - Grafana: 'integrations/grafana/index.md'
     - Home Page: 'integrations/index.mdhome-page'
     - Jira: 'integrations/jira/index.md'
     - Kubernetes: 'integrations/kubernetes/index.md'
