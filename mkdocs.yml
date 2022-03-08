@@ -48,3 +48,4 @@ nav:
     - GitHub app permissions: 'integrations/github-app-permissions/index.md'
     - Setting secrets: 'details/setting-secrets/index.md'
     - Updating the UI: 'getting-started/updating-the-ui/index.md'
+    - Whitelisting Roadie Traffic: 'details/whitelisting-roadie-traffic/index.md'
