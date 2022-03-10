@@ -27,6 +27,7 @@ nav:
     - Google oauth client: 'integrations/google-oauth-client/index.md'
     - Grafana: 'integrations/grafana/index.md'
     - Home Page: 'integrations/index.mdhome-page'
+    - Home Page Markdown: 'integrations/index.mdhome-page-markdown'
     - Jira: 'integrations/jira/index.md'
     - Kubernetes: 'integrations/kubernetes/index.md'
     - Newrelic: 'integrations/newrelic/index.md'
