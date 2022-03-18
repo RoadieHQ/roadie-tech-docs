@@ -30,6 +30,7 @@ nav:
     - Home Page Markdown: 'integrations/index.mdhome-page-markdown'
     - Jira: 'integrations/jira/index.md'
     - Kubernetes: 'integrations/kubernetes/index.md'
+    - Lighthouse: 'integrations/lighthouse/index.md'
     - Newrelic: 'integrations/newrelic/index.md'
     - Opsgenie: 'integrations/opsgenie/index.md'
     - Pagerduty: 'integrations/pagerduty/index.md'
