@@ -28,6 +28,7 @@ nav:
     - Grafana: 'integrations/grafana/index.md'
     - Home Page: 'integrations/index.mdhome-page'
     - Home Page Markdown: 'integrations/index.mdhome-page-markdown'
+    - Jenkins: 'integrations/jenkins/index.md'
     - Jira: 'integrations/jira/index.md'
     - Kubernetes: 'integrations/kubernetes/index.md'
     - Lighthouse: 'integrations/lighthouse/index.md'
@@ -50,4 +51,4 @@ nav:
     - GitHub app permissions: 'integrations/github-app-permissions/index.md'
     - Setting secrets: 'details/setting-secrets/index.md'
     - Updating the UI: 'getting-started/updating-the-ui/index.md'
-    - Whitelisting Roadie Traffic: 'details/whitelisting-roadie-traffic/index.md'
+    - Allowlisting Roadie Traffic: 'details/allowlisting-roadie-traffic/index.md'
