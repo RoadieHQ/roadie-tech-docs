@@ -4,7 +4,8 @@
 This tutorial will show you how to add components such as services or websites to the Backstage catalog.
 
 ## Prerequisite 
-You must have installed the Github App in order to import components in private repositories. If you have not done this you can find the steps to do this [here.](../../getting-started/getting-started-for-admins/#install-the-roadie-github-app).
+
+You must instal the GitHub App in order to import components in private repositories. The steps to do this are [here](../../getting-started/install-github-app/).
 
 ## Step 1: Create your 'catalog-info.yaml' file
 

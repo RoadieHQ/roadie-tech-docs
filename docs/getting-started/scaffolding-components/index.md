@@ -4,7 +4,8 @@
 This tutorial will show you how to create a basic scaffolder template in Backstage.
 
 ## Prerequisite 
-You must have installed the Github App in order to use the scaffolder. If you have not done this you can find the steps to do this [here](../../getting-started/getting-started-for-admins/#connect-roadie-to-github).
+
+You must have installed the Github App in order to use the scaffolder. If you have not done this you can find the steps to do this [here](../../getting-started/install-github-app/).
 
 ## Steps
 
