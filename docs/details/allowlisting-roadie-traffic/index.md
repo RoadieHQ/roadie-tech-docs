@@ -1,3 +1,4 @@
+---
 
 ## Introduction
 
@@ -22,6 +23,7 @@ If your IT department requires an allow list of domains, please use the followin
 
 ```
 <yourtenant>.roadie.so
+<yourtenant>.vouch.roadie.so
 *.roadie.systems
 
 ```
