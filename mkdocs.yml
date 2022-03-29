@@ -14,7 +14,7 @@ nav:
     - Designating admins: 'getting-started/create-admin-group/index.md'
     - Adding API specs: 'getting-started/openapi-specs/index.md'
     - Scaffolding components: 'getting-started/scaffolding-components/index.md'
-  - Adding Backstage plugins:
+  - Backstage plugins:
     - Argo CD: 'integrations/argocd/index.md'
     - BuildKite: 'integrations/buildkite/index.md'
     - Bugsnag: 'integrations/bugsnag/index.md'
@@ -22,10 +22,6 @@ nav:
     - CircleCI: 'integrations/circleci/index.md'
     - Datadog: 'integrations/datadog/index.md'
     - FireHydrant: 'integrations/firehydrant/index.md'
-    - Google Cloud Platform: 'integrations/gcp/index.md'
-    - GitHub org: 'integrations/github-org/index.md'
-    - Github token: 'integrations/github-token/index.md'
-    - Google oauth client: 'integrations/google-oauth-client/index.md'
     - Grafana: 'integrations/grafana/index.md'
     - Home Page: 'integrations/index.mdhome-page'
     - Home Page Markdown: 'integrations/index.mdhome-page-markdown'
@@ -43,6 +39,11 @@ nav:
     - Travis CI: 'integrations/travis-ci/index.md'
     - Tech radar: 'configuration/tech-radar/index.md'
     - Cortex: 'integrations/index.mdcortex'
+  - Integrations:
+    - GitHub org: 'integrations/github-org/index.md'
+    - GitHub token: 'integrations/github-token/index.md'
+    - Google Cloud Platform: 'integrations/gcp/index.md'
+    - Google oauth client: 'integrations/google-oauth-client/index.md'
   - Custom plugins:
     - Artifactory: 'custom-plugins/artifactory/index.md'
     - Configuring: 'custom-plugins/configuring/index.md'
