@@ -22,6 +22,7 @@ nav:
     - CircleCI: 'integrations/circleci/index.md'
     - Datadog: 'integrations/datadog/index.md'
     - FireHydrant: 'integrations/firehydrant/index.md'
+    - Google Calendar: 'integrations/gcalendar/index.md'
     - Grafana: 'integrations/grafana/index.md'
     - Home Page: 'integrations/index.mdhome-page'
     - Home Page Markdown: 'integrations/index.mdhome-page-markdown'
