@@ -42,10 +42,11 @@ nav:
     - Cortex: 'integrations/index.mdcortex'
   - Integrations:
     - AWS S3: 'integrations/aws-s3/index.md'
+    - Bitbucket: 'integrations/bitbucket/index.md'
     - GitHub org: 'integrations/github-org/index.md'
     - GitHub token: 'integrations/github-token/index.md'
     - Google Cloud Platform: 'integrations/gcp/index.md'
-    - Google oauth client: 'integrations/google-oauth-client/index.md'
+    - Google OAuth client: 'integrations/google-oauth-client/index.md'
   - Custom plugins:
     - Artifactory: 'custom-plugins/artifactory/index.md'
     - Configuring: 'custom-plugins/configuring/index.md'
