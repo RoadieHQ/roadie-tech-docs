@@ -1,3 +1,7 @@
+humanName: AWS S3
+logoImage: '../../../assets/logos/aws/Amazon_Web_Services_Logo.png'
+integrationType: Integration
+---
 
 ## Introduction
 

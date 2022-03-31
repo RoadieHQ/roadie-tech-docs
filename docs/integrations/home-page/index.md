@@ -1,3 +1,7 @@
+humanName: Home Page
+logoImage: '../../../assets/logos/home-page/home.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

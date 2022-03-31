@@ -1,3 +1,7 @@
+humanName: Jira
+logoImage: '../../../assets/logos/jira/jira_logo.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

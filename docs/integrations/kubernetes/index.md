@@ -1,3 +1,7 @@
+humanName: Kubernetes
+logoImage: '../../../assets/logos/kubernetes/logo-kubernetes.png'
+integrationType: OSS plugin
+---
 
 ![Full active cluster on roadie](./active.png)
 

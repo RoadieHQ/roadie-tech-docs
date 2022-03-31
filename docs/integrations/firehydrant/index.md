@@ -1,3 +1,7 @@
+humanName: FireHydrant
+logoImage: '../../../assets/logos/firehydrant/firehydrant.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

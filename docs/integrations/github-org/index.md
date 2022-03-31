@@ -1,3 +1,7 @@
+humanName: GitHub Org
+logoImage: '../../../assets/logos/github/mark/official/PNG/GitHub-Mark-120px-plus.png'
+integrationType: Integration
+---
 
 ## Introduction
 

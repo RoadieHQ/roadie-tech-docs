@@ -1,3 +1,7 @@
+humanName: PagerDuty
+logoImage: '../../../assets/logos/pagerduty/pagerduty-logo-light-200x200.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

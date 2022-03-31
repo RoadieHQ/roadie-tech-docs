@@ -1,3 +1,7 @@
+humanName: Google Cloud Platform
+logoImage: '../../../assets/logos/google-cloud/google-cloud.png'
+integrationType: Integration
+---
 
 ## Introduction
 

@@ -1,3 +1,7 @@
+humanName: Catalog Graph
+logoImage: '../../../assets/logos/catalog-graph/catalog-graph-logo.jpeg'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

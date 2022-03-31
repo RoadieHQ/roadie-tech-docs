@@ -1,3 +1,7 @@
+humanName: Buildkite
+logoImage: '../../../assets/logos/buildkite/buildkite-logo.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

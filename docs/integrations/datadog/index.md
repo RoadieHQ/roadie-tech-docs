@@ -1,3 +1,7 @@
+humanName: Datadog
+logoImage: '../../../assets/logos/datadog/datadog-logo-no-text.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

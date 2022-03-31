@@ -1,3 +1,6 @@
+logoImage: '../../../assets/logos/travis-ci/travis-ci-mascot-200x200.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

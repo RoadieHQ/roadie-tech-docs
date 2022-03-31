@@ -1,3 +1,7 @@
+humanName: Bugsnag
+logoImage: '../../../assets/logos/bugsnag/bugsnag-logo.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

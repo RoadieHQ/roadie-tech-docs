@@ -1,3 +1,7 @@
+humanName: Jenkins
+logoImage: '../../../assets/logos/jenkins/logo-jenkins.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

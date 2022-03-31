@@ -1,3 +1,7 @@
+humanName: Lighthouse
+logoImage: '../../../assets/logos/lighthouse/logo-lh.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

@@ -1,3 +1,7 @@
+humanName: Bitbucket
+logoImage: '../../../assets/logos/bitbucket/bitbucket.png'
+integrationType: Integration
+---
 
 ## Introduction
 

@@ -1,3 +1,7 @@
+humanName: New Relic
+logoImage: '../../../assets/logos/new-relic/logo-relic.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

@@ -1,3 +1,7 @@
+humanName: Grafana
+logoImage: '../../../assets/logos/grafana/grafana.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

@@ -1,3 +1,6 @@
+logoImage: '../../../assets/logos/sentry/sentry-glyph-dark.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

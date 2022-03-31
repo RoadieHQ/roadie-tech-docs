@@ -1,3 +1,7 @@
+humanName: Cortex
+logoImage: '../../../assets/logos/cortex/cortex-logo.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

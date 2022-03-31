@@ -1,3 +1,6 @@
+logoImage: '../../../assets/logos/tech-radar/radar.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

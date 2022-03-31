@@ -1,3 +1,7 @@
+humanName: Opsgenie
+logoImage: '../../../assets/logos/opsgenie/logo-opsgenie.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

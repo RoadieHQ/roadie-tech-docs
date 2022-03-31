@@ -1,3 +1,7 @@
+humanName: Argo CD
+logoImage: '../../../assets/logos/argo-cd/argo-cd-logo.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

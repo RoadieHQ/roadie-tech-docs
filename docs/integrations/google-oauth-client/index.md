@@ -1,3 +1,7 @@
+humanName: Google OAuth
+logoImage: '../../../assets/logos/google-cloud-build/logo-cloud.png'
+integrationType: Integration
+---
 
 ## Introduction
 

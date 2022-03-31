@@ -1,3 +1,6 @@
+logoImage: '../../../assets/prometheus/prom_logo.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 

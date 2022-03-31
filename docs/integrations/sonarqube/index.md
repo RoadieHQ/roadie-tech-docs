@@ -1,3 +1,6 @@
+logoImage: '../../../assets/logos/sonarqube/logo-sonar.png'
+integrationType: OSS plugin
+---
 
 ## Introduction
 
