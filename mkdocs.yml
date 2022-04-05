@@ -15,6 +15,7 @@ nav:
     - Adding API specs: 'getting-started/openapi-specs/index.md'
     - Scaffolding components: 'getting-started/scaffolding-components/index.md'
   - Backstage plugins:
+    - Allure: 'integrations/allure/index.md'
     - Argo CD: 'integrations/argocd/index.md'
     - BuildKite: 'integrations/buildkite/index.md'
     - Bugsnag: 'integrations/bugsnag/index.md'
