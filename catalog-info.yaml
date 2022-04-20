@@ -9,4 +9,4 @@ metadata:
 spec:
   type: documentation
   lifecycle: production
-  owner: user:guest
+  owner: group:engineering
