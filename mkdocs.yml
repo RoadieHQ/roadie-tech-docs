@@ -28,6 +28,7 @@ nav:
     - Grafana: 'integrations/grafana/index.md'
     - Home Page: 'integrations/index.mdhome-page'
     - Home Page Markdown: 'integrations/index.mdhome-page-markdown'
+    - IFrame: 'integrations/index.mdiframe'
     - Jenkins: 'integrations/jenkins/index.md'
     - Jira: 'integrations/jira/index.md'
     - Kubernetes: 'integrations/kubernetes/index.md'
