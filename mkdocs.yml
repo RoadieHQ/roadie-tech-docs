@@ -41,7 +41,7 @@ nav:
     - Snyk: 'integrations/snyk/index.md'
     - Sonarqube: 'integrations/sonarqube/index.md'
     - Travis CI: 'integrations/travis-ci/index.md'
-    - Tech radar: 'configuration/tech-radar/index.md'
+    - Tech radar: 'integrations/tech-radar/index.md'
     - Cortex: 'integrations/index.mdcortex'
   - Integrations:
     - AWS S3: 'integrations/aws-s3/index.md'
