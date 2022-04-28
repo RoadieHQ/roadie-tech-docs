@@ -63,3 +63,4 @@ nav:
     - Required annotations: 'details/required-annotations/index.md'
     - Previewing config changes: 'details/previewing-changes/index.md'
     - Removing Components: 'details/unregister-components/index.md'
+    - Accessing Public resources: 'details/backend-reading-allow-list/index.md'
