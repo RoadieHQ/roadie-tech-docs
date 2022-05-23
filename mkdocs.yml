@@ -65,5 +65,5 @@ nav:
     - Removing Components: 'details/unregister-components/index.md'
     - Accessing Public resources: 'details/backend-reading-allow-list/index.md'
     - Requesting plugins: 'details/requesting-plugins/index.md'
-    - Scaffolder: 'details/scaffolder/index.md'
+    - Writing scaffolder templates: 'details/scaffolder/index.md'
     - Troubleshooting the Catalog: 'details/index.mdtroubleshooting-the-catalog'
