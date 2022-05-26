@@ -58,7 +58,7 @@ nav:
     - GtHub app permissions: 'details/github-app-permissions/index.md'
     - Setting secrets: 'details/setting-secrets/index.md'
     - Updating the UI: 'details/updating-the-ui/index.md'
-    - Accessessing AWS Resources: 'details/accessing-aws-resources/index.md'
+    - Accessing AWS Resources: 'details/accessing-aws-resources/index.md'
     - Allowlisting Roadie Traffic: 'details/allowlisting-roadie-traffic/index.md'
     - Required annotations: 'details/required-annotations/index.md'
     - Previewing config changes: 'details/previewing-changes/index.md'
