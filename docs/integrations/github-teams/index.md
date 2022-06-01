@@ -1,11 +1,11 @@
-humanName: GitHub Discovery
+humanName: GitHub Teams
 logoImage: '../../../assets/logos/github/mark/official/PNG/GitHub-Mark-120px-plus.png'
 integrationType: Integration
 ---
 
 ## Introduction
 
-Roadie can load your catalog files automatically from GitHub.
+Roadie can load your organization team structure and employees from GitHub teams.
 
 This page describes how to do that.
 
@@ -17,8 +17,8 @@ This page describes how to do that.
 ## Steps
 
 1. Visit the Administration > Settings page and click on GitHub under Integrations
-2. Find the Add button beside "Configure Autodiscovery of entities" and click the button.
-3. In the dialog the appears enter the name of the url of your GitHub Organization e.g. `https://github.com/your-org`. Press Save
+2. Find the Add button beside "Configure Autodiscovery of teams and users" and click the button.
+3. In the dialog the appears enter the name of the GitHub Organization. Press Save
 
 ## Confirming it worked
 

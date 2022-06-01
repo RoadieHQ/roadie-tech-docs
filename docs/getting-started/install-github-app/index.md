@@ -19,7 +19,7 @@ Installing the GitHub App will allow Roadie to access the YAML metadata files th
 
 ![A link that says "Settings"](./settings-link.png)
 
-3. Click on Integrations in the left sidebar.
+3. Click on GitHub under Integrations in the left sidebar.
 
 ![A link that says "Integrations"](./integrations-link.png)
 
@@ -29,14 +29,12 @@ Installing the GitHub App will allow Roadie to access the YAML metadata files th
 
 5. Choose your GitHub organization and follow the steps to install the app.
 
-⚠️  &nbsp;You may need to wait up to 2 minutes for the GitHub integration to become active.
-
 ℹ️  &nbsp;If you are not an owner of your GitHub organization, you will need to ask an owner to approve the App installation and then contact us to enable the App.
-
-ℹ️  &nbsp;To enable the `github-org` processor, please navigate [here](../../integrations/github-org/).
-
-ℹ️  &nbsp;To enable the `github-discovery` processor, please navigate [here](../../integrations/github-discovery/).
 
 ## Next steps
 
 Now that a connection to GitHub is established, you can [make yourself an admin on Roadie](../../getting-started/create-admin-group/).
+
+To automatically load catalog files from repositories please see [here](../../integrations/github-discovery/)
+
+To load users and groups from GitHub Teams please see [here](../../integrations/github-teams/).
