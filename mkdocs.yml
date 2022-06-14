@@ -38,6 +38,7 @@ nav:
     - PagerDuty: 'integrations/pagerduty/index.md'
     - Prometheus: 'integrations/prometheus/index.md'
     - Sentry: 'integrations/sentry/index.md'
+    - Shortcut: 'integrations/shortcut-plugin/index.md'
     - Snyk: 'integrations/snyk/index.md'
     - Sonarqube: 'integrations/sonarqube/index.md'
     - Travis CI: 'integrations/travis-ci/index.md'
