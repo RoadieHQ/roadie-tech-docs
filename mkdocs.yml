@@ -61,6 +61,7 @@ nav:
     - Updating the UI: 'details/updating-the-ui/index.md'
     - Accessing AWS resources: 'details/accessing-aws-resources/index.md'
     - Allowlisting Roadie traffic: 'details/allowlisting-roadie-traffic/index.md'
+    - Modelling Users and Groups: 'details/modelling-users-and-groups/index.md'
     - Required annotations: 'details/required-annotations/index.md'
     - Previewing component changes: 'details/previewing-changes/index.md'
     - Removing components: 'details/unregister-components/index.md'
