@@ -84,7 +84,7 @@ The spec field contains `owner` and `type`. Owner refers to the Backstage group 
 
 The parameters property is a list of parameters that can be prompted from the user when they run a template. Each array element contains the configuration for a single page of items to be filled by the user running the template. The parameter pages must contain `title`, `required` and `properties`.
 
-You can choose to break up the parameter prompting into `form steps` or collect all of the parameters in one single step.
+You can choose to break up the parameter prompting into `form steps` or collect all the parameters in one single step.
 Each parameter can be one of a few types: `string`, `number`, `array` or `object`.
 
 Here is the most basic example:
@@ -137,9 +137,9 @@ parameters:
       ui:field: EntityNamePicker
 ```
 
-The respository picker can allow the user to select the name and location of a new respository. The picker restricts the target location of the repository to make it a little easier for the user to select a target location.
+The respository picker can allow the user to select the name and location of a new repository. The picker restricts the target location of the repository to make it a little easier for the user to select a target location.
 
-The following example, will only allow the user to enter a new repository name targetting the GitHub using the AcmeInc organization.
+The following example, will only allow the user to enter a new repository name targeting the GitHub using the AcmeInc organization.
 
 ```yaml
 parameters:
@@ -317,7 +317,7 @@ parameters:
 
 ### Form Steps
 
-It might be jarring for your user to enter a lot of parameters one after another on the same page, especially if some of the properties require validation. As such Backstage have provided form steps.
+It might be jarring for your user to enter a lot of parameters one after another on the same page, especially if some properties require validation. As such Backstage have provided form steps.
 
 You can make use of form steps using the following example.
 
@@ -380,7 +380,7 @@ The `fetch:plain` action does not output any data.
 
 ### `fetch:template`
 
-This downloads a directory containing templated files. It then renders all of the templates variables into the files and directory names and content, and places the result in the workspace.
+This downloads a directory containing templated files. It then renders all the template variables into the files and directory names and content, and places the result in the workspace.
 
 ```yaml
 steps:
@@ -393,7 +393,7 @@ steps:
         name: ${{ parameters.name }}
 ```
 
-The templated files themselves can contain refererces to the values in the following way `${{ values.name }}`. It uses the nunjucks templating language. More details can be found [here](https://mozilla.github.io/nunjucks/).
+The templated files themselves can contain references to the values in the following way `${{ values.name }}`. It uses the nunjucks templating language. More details can be found [here](https://mozilla.github.io/nunjucks/).
 
 Optionally, if you would prefer the data to be downloaded to a subdirectory in the workspace you may specify the 'targetPath' input option.
 
@@ -458,7 +458,7 @@ steps:
       repoUrl: 'github.com?repo=newreponame&owner=AcmeInc'
 ```
 
-By default it will create a repository with a `master` branch. If you would prefer to use `main` you can do the following:
+By default it will create a repository with a `master` branch. If you prefer to use `main` you can do the following:
 
 ```yaml
 steps:
@@ -506,7 +506,7 @@ steps:
       repoVisibility: 'public'
 ```
 
-To cause merges to delete the source branch, you can enabled the `deleteBranchOnMerge` setting.
+To cause merges to delete the source branch, you can enable the `deleteBranchOnMerge` setting.
 
 ```yaml
 steps:
@@ -577,7 +577,7 @@ steps:
 The `publish:github` action produces two step outputs.
 
 | Name            | Description                                   |
-| --------------- | --------------------------------------------- |
+|-----------------|-----------------------------------------------|
 | remoteUrl       | Url for the newly created repository          |
 | repoContentsUrl | Url that shows the contents of the repository |
 
@@ -605,7 +605,7 @@ steps:
       repoUrl: 'github.com?repo=reponame&owner=AcmeInc'
       branchName: ticketNumber-123
       title: 'Make some changes to the files'
-      description: 'This pull request makes canges to the files in the reponame repository in the AcmeInc organization'
+      description: 'This pull request makes changes to the files in the reponame repository in the AcmeInc organization'
 ```
 
 If the updated code is contained in a subdirectory to the workspace directory, you can use the `sourcePath` to select it. If the files you want to target to update are in a subdirectory of the repository you can use the `targetPath` option.
@@ -619,8 +619,8 @@ steps:
       repoUrl: 'github.com?repo=reponame&owner=AcmeInc'
       branchName: ticketNumber-123
       title: 'Make some changes to the files'
-      description: 'This pull request makes canges to the files in the reponame repository in the AcmeInc organization'
-      sourchPath: ./subdirectory
+      description: 'This pull request makes changes to the files in the reponame repository in the AcmeInc organization'
+      sourcePath: ./subdirectory
       targetPath: ./subdirectory
 ```
 
@@ -629,7 +629,7 @@ steps:
 The `publish:github:pull-request` action produces two outputs.
 
 | Name              | Description                          |
-| ----------------- | ------------------------------------ |
+|-------------------|--------------------------------------|
 | remoteUrl         | Url to the new pull request          |
 | pullRequestNumber | Shows the number of the pull request |
 
@@ -712,7 +712,7 @@ steps:
 The `publish:bitbucket` action produces the following outputs.
 
 | Name            | Description                                   |
-| --------------- | --------------------------------------------- |
+|-----------------|-----------------------------------------------|
 | remoteUrl       | Url for the newly created repository          |
 | repoContentsUrl | Url that shows the contents of the repository |
 
@@ -829,7 +829,7 @@ steps:
         - from: copyfrom
           to: copyto
         - from: copyfrom1
-          to: copyfrom2
+          to: copyto1
 ```
 
 #### Outputs
@@ -875,7 +875,7 @@ The `github:actions:dispatch` action does not have any outputs.
 
 ### `github:webhook`
 
-You can configure a webhook on an existing repository in GitHub using this action. It takes `repoUrl` and `webhookUrl`. The `repoUrl` option needs to be in a the GitHub repo format. The `RepoUrlPicker` documented above will generate a url in the correct format.
+You can configure a webhook on an existing repository in GitHub using this action. It takes `repoUrl` and `webhookUrl`. The `repoUrl` option needs to be in a GitHub repo format. The `RepoUrlPicker` documented above will generate a URL in the correct format.
 
 ```yaml
 steps:
@@ -887,7 +887,7 @@ steps:
       webhookUrl: 'https://webhook-handler-service.abc/handle-webhook'
 ```
 
-You can configure a webhook secrect using the `webhookSecret` option. You will likely want to provide this via an output from a previous step.
+You can configure a webhook secret using the `webhookSecret` option. You will likely want to provide this via an output from a previous step.
 
 ```yaml
 steps:
@@ -942,7 +942,7 @@ steps:
       contentType: json
 ```
 
-You can disable SSL on the webhook request using the `insecureSsl` option but it is not advised.
+You can disable SSL on the webhook request using the `insecureSsl` option, but it is not advised.
 
 ```yaml
 steps:
@@ -961,7 +961,7 @@ The `github:webhook` action does not have any outputs.
 
 ### `http:backstage:request`
 
-This action allows the Scaffolder task to run a HTTP request against the Backstage Backend API and handle the response. It can be useful for extending the scaffolder to call out to third party APIs. You can do this by configuring a proxy and then calling the proxy with this action.
+This action allows the Scaffolder task to run an HTTP request against the Backstage Backend API and handle the response. It can be useful for extending the scaffolder to call out to third party APIs. You can do this by configuring a proxy and then calling the proxy with this action.
 
 ```yaml
 steps:
@@ -1014,7 +1014,7 @@ steps:
       body: 'thingname=abc1'
 ```
 
-You can also have the action generate a `json` formatted body by setting a custom "Content-Type" header to "application/json" and then providing a object to the `body` param.
+You can also have the action generate a `json` formatted body by setting a custom "Content-Type" header to "application/json" and then providing an object to the `body` param.
 
 ```yaml
 steps:
@@ -1035,12 +1035,12 @@ steps:
 The `http:backstage:request` action has three outputs.
 
 | Name    | Description                                                        |
-| ------- | ------------------------------------------------------------------ |
+|---------|--------------------------------------------------------------------|
 | code    | Status code of the http response                                   |
 | headers | Dictionary containing all of the response headers and their values |
 | body    | Body of the response                                               |
 
-If there is a content-type header containing `application/json` the `body` param will contain the parsed object. Otherwise it will contain an object with a single param `message` containing a string representing the body of the response.
+If there is a content-type header containing `application/json` the `body` param will contain the parsed object. Otherwise, it will contain an object with a single param `message` containing a string representing the body of the response.
 
 ### `debug:log`
 
@@ -1061,7 +1061,7 @@ The `debug:log` action does not have any outputs.
 
 ### Other Actions
 
-You can find all of the actions available to your Backstage instance by visiting the following page from within Backstage:
+You can find all the actions available to your Backstage instance by visiting the following page from within Backstage:
 
 `https://<tenant-name>.roadie.so/create/actions`
 
@@ -1069,7 +1069,7 @@ You can find all of the actions available to your Backstage instance by visiting
 
 ### Calling an internal API
 
-If you need a scaffolder step to contact a custom authenticated service or any public API for that matter that is not currently supported by a built in action, you can do that using a combination of the `http:backstage:request` action and a [backstage proxy configuration](../../custom-plugins/proxy/).
+If you need a scaffolder step to contact a custom authenticated service or any public API for that matter that is not currently supported by a built-in action, you can do that using a combination of the `http:backstage:request` action and a [backstage proxy configuration](../../custom-plugins/proxy/).
 
 Start by creating a proxy configuration as described in [this page](../../custom-plugins/proxy/)
 
