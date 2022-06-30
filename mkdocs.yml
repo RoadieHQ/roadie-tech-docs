@@ -64,6 +64,7 @@ nav:
     - Modelling Users and Groups: 'details/modelling-users-and-groups/index.md'
     - Required annotations: 'details/required-annotations/index.md'
     - Previewing component changes: 'details/previewing-changes/index.md'
+    - Validating catalog files: 'details/validator/index.md'
     - Removing components: 'details/unregister-components/index.md'
     - Accessing public resources: 'details/backend-reading-allow-list/index.md'
     - Requesting plugins: 'details/requesting-plugins/index.md'
