@@ -22,6 +22,7 @@ nav:
     - Bugsnag: 'integrations/bugsnag/index.md'
     - Catalog graph: 'integrations/catalog-graph/index.md'
     - CircleCI: 'integrations/circleci/index.md'
+    - Confluence: 'integrations/confluence/index.md'
     - Datadog: 'integrations/datadog/index.md'
     - FireHydrant: 'integrations/firehydrant/index.md'
     - Google Calendar: 'integrations/gcalendar/index.md'
