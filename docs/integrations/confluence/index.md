@@ -1,5 +1,5 @@
 humanName: Confluence
-logoImage: '../../../assets/logos/confluence/confluence-icon.svg'
+logoImage: '../../../assets/logos/confluence/confluence.png'
 integrationType: Integration
 ---
 
