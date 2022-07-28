@@ -72,3 +72,4 @@ nav:
     - Writing scaffolder templates: 'details/scaffolder/index.md'
     - Managing locations: 'details/location-management/index.md'
     - Troubleshooting the catalog: 'details/troubleshooting-the-catalog/index.md'
+    - Using grpc-docs: 'details/grpc-docs/index.md'
