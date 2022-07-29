@@ -58,6 +58,7 @@ nav:
     - Proxy: 'custom-plugins/proxy/index.md'
   - In-depth:
     - GtHub app permissions: 'details/github-app-permissions/index.md'
+    - Configure GitHub Enterprise: 'details/github-enterprise/index.md'
     - Setting secrets: 'details/setting-secrets/index.md'
     - Updating the UI: 'details/updating-the-ui/index.md'
     - Accessing AWS resources: 'details/accessing-aws-resources/index.md'

@@ -1,7 +1,7 @@
 
 ## Introduction
 
-This tutorial will guide you through the steps required to connect Roadie to your GitHub org.
+This tutorial will guide you through the steps required to connect Roadie to your GitHub org. If you are configuring GitHub enterprise, please follow the steps [here](../../details/github-enterprise/).
 
 ## Prerequisites
 
