@@ -32,6 +32,7 @@ nav:
     - IFrame: 'integrations/index.mdiframe'
     - Jenkins: 'integrations/jenkins/index.md'
     - Jira: 'integrations/jira/index.md'
+    - Okta: 'integrations/okta/index.md'
     - Kubernetes: 'integrations/kubernetes/index.md'
     - Lighthouse: 'integrations/lighthouse/index.md'
     - Newrelic: 'integrations/newrelic/index.md'
