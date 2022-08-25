@@ -18,7 +18,7 @@ nav:
     - Allure: 'integrations/allure/index.md'
     - Argo CD: 'integrations/argocd/index.md'
     - Azure DevOps: 'integrations/azure-devops/index.md'
-    - BuildKite: 'integrations/buildkite/index.md'
+    - Buildkite: 'integrations/buildkite/index.md'
     - Bugsnag: 'integrations/bugsnag/index.md'
     - Catalog graph: 'integrations/catalog-graph/index.md'
     - CircleCI: 'integrations/circleci/index.md'
