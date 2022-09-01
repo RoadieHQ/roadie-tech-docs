@@ -52,13 +52,13 @@ We will use the approach which is recommended by AWS for providing this type of 
 
 Optional: Add a tag, Key: `3rdPartyIntegration` Value: `Roadie`
 
-6. Click ”Next Review”
+7. Click ”Next Review”
 
-7. For the ”Role Name” enter: ”your-company-name-roadie-read-only-role”
+8. For the ”Role Name” enter: ”**[your company name]**-roadie-read-only-role”
 
-> Note: ”your-company-name” should be replaced by the lowercased value of your company and should follow the convention highlighted above. If it does not follow the convention, the role cannot be assumed. This is for security reasons.
+> Note: ”**[your company name]**” should be replaced by the lowercased value of your company and must follow the convention highlighted above. If it does not follow the convention, the role cannot be assumed. This is for security reasons.
 
-8. For the ”Role description” enter suggested description
+9. For the ”Role description” enter suggested description
 
 ```
 This is a role that will be assumed by roadie to gather information on our Kubernetes clusters.
@@ -67,15 +67,18 @@ It should look like this
 
 ![role-confirmation](./role-confirmation.png)
 
-9. Click ”Create role”. Your cross federation role is now created.
+10. Click ”Create role”. Your cross federation role is now created.
 
 ### Step 2: Modifying trust relationships to only include the new role
 
-1. Search for IAM in the services box and then click on ”Roles” on the left handside tab.
+1. Get the role of the Roadie backend. This is displayed on the Kubernetes config page `/administration/settings/kubernetes`.
 
-2. Search for your newly created role: ”your-company-name-roadie-read-only-role” and click on it.
+![AWS roadie role](./role-roadie.png)
 
-You should see a page like this
+2. Search for IAM in the services box and then click on ”Roles” on the left handside tab.
+
+3. Search for your newly created role: ”**[your company name]**-roadie-read-only-role” and click on it.
+You should see a page like below. Record the role arn. This is your assumable role arn which you'll need to configure RBAC in kubernetes.
 
 ![role-page](./role-page.png)
 
@@ -99,7 +102,7 @@ You should see a page like this
         },
         "StringLike": {
           "aws:PrincipalArn": [
-            "ROLE FROM CONFIGURATION PAGE"
+            "*[Roadie backend role name]"
           ]
         }
       }
@@ -107,10 +110,7 @@ You should see a page like this
   ]
 }
 ```
- > In the Json fragment above, replace the "ROLE FROM CONFIGURATION PAGE" with the role that is provided to you on the Kubernetes configuration page (See below)
-
-
-![AWS roadie role](./role-roadie.png)
+ > In the Json fragment above, replace the "[Roadie backend role name]" with the role that is provided to you on the Kubernetes configuration page (See step 1). Note the leading `*` is required.
 
 4. Save the changes.
 
@@ -124,11 +124,11 @@ It should look something like this:
  - mapRoles:
    - "groups":
       - "system:authenticated"
-      "rolearn": "ROLE ARN FROM STEP TWO"
+      "rolearn": "[ASSUMABLE ROLE ARN]"
       "username": "roadie"
 ```
 
-⚠️ In the yaml snippet above, be sure to replace "ROLE ARN FROM STEP TWO" with the ARN of the role created from step 2.
+⚠️ In the yaml snippet above, be sure to replace "[ASSUMABLE ROLE ARN]" with the ARN of the assumable role created in step 1.
 
 
 2. Create an RBAC for this user:
@@ -190,7 +190,7 @@ subjects:
 1. Navigate to your Kubernetes settings in Roadie and click on add item.
 
    ```
-   https://<tenant-name>.roadie.so/administration/settings/kubernetes" 
+   https://[tenant-name].roadie.so/administration/settings/kubernetes" 
    ```
 
 2. Select the AWS provider
@@ -211,7 +211,7 @@ In order to use the Kubernetes plugin for GKE, Roadie needs:
 These are set within Roadie at the following url:
 
 ```
-https://<tenant-name>.roadie.so/administration/settings/kubernetes
+https://[tenant-name].roadie.so/administration/settings/kubernetes
 ```
 
 This page describes how to create and set up the API token.
@@ -235,7 +235,7 @@ Follow step 2 from [here](../../integrations/google-oauth-client/).
 
 ### Step 3: Adding a cluster to roadie
 
-1. Navigate to ”https://<tenant-name>.roadie.so/administration/settings/kubernetes” and click on add item.
+1. Navigate to ”https://[tenant-name].roadie.so/administration/settings/kubernetes” and click on add item.
 2. Select the Google provider
 3. Add the load balancer url and name of cluster.
 4. Click save and exit!
