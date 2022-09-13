@@ -35,7 +35,13 @@ The Opsgenie plugin provides two type of UI elements.
 
 The card `EntityOpsgenieAlertsCard` displays alerts for particular components and can be [added to component dashboards](../../getting-started/updating-the-ui/#updating-dashboards). 
 
-The overview page `OpsgeniePage` can be also be [added to the sidebar](../../getting-started/updating-the-ui#updating-the-sidebar).
+The overview page `OpsgeniePage` can be also be [added to the sidebar](../../getting-started/updating-the-ui#updating-the-sidebar). 
+You can override the default page size of 6 for the On-Call list by adding props to the sidebar component when adding it of: 
+```json
+{
+  "onCallListCardsCount": 48
+}
+```
 
 ## References
 
