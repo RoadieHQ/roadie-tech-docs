@@ -55,8 +55,8 @@ nav:
     - Google Cloud Platform: 'integrations/gcp/index.md'
     - Google OAuth client: 'integrations/google-oauth-client/index.md'
   - Custom plugins:
-    - Artifactory: 'custom-plugins/artifactory/index.md'
-    - Configuring: 'custom-plugins/configuring/index.md'
+    - Configuration: 'custom-plugins/configuring/index.md'
+    - Publishing Plugins: 'custom-plugins/artifactory/index.md'
     - Proxy: 'custom-plugins/proxy/index.md'
   - In-depth:
     - GitHub app permissions: 'details/github-app-permissions/index.md'
