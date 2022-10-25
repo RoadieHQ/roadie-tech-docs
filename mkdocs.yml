@@ -51,6 +51,7 @@ nav:
   - Integrations:
     - AWS S3: 'integrations/aws-s3/index.md'
     - Bitbucket: 'integrations/bitbucket/index.md'
+    - GitHub Discovery: 'integrations/github-discovery/index.md'
     - GitHub org: 'integrations/github-teams/index.md'
     - GitHub token: 'integrations/github-token/index.md'
     - Google Cloud Platform: 'integrations/gcp/index.md'
