@@ -12,7 +12,7 @@ nav:
     - Adding plugins: 'getting-started/configuring-backstage-plugins/index.md'
     - Inviting users: 'getting-started/user-management/index.md'
     - Designating admins: 'getting-started/create-admin-group/index.md'
-    - Modelling Users and Groups: 'getting-started/modelling-users-and-groups/index.md'
+    - Modelling Users and Groups: 'getting-started/teams/index.md'
     - Adding API specs: 'getting-started/openapi-specs/index.md'
     - Scaffolding components: 'getting-started/scaffolding-components/index.md'
   - Backstage plugins:
