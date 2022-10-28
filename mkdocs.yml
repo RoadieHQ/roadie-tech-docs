@@ -78,3 +78,4 @@ nav:
     - Modelling dependencies: 'details/showing-dependencies/index.md'
     - Troubleshooting the catalog: 'details/troubleshooting-the-catalog/index.md'
     - Using grpc-docs: 'details/grpc-docs/index.md'
+    - API docs custom renderers: 'details/custom-api-docs-renderers/index.md'
