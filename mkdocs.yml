@@ -79,3 +79,6 @@ nav:
     - Troubleshooting the catalog: 'details/troubleshooting-the-catalog/index.md'
     - Using grpc-docs: 'details/grpc-docs/index.md'
     - API docs custom renderers: 'details/custom-api-docs-renderers/index.md'
+  - Scaffolder-Cookbook:
+    - Create RFC: 'scaffolder-cookbook/create-rfc/index.md'
+    - Debug template: 'scaffolder-cookbook/debug-template/index.md'
