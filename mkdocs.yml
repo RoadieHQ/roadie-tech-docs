@@ -48,6 +48,7 @@ nav:
       - Stackoverflow: 'integrations/index.mdstackoverflow'
       - Travis CI: 'integrations/travis-ci/index.md'
       - Tech radar: 'integrations/tech-radar/index.md'
+      - Apache Airflow: 'integrations/apache-airflow/index.md'
   - Integrations:
       - AWS S3: 'integrations/aws-s3/index.md'
       - Azure DevOps: 'integrations/azure-devops-provider/index.md'
