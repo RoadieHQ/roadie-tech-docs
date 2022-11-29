@@ -1,3 +1,26 @@
+---
+
+> **_NOTE:_** To fully utilize the unfurling of all of your $ref's in your openapi specs please replace your old `$text`resolver usages inside your API kinds with the type openapi to the new `$openapi` resolver
+
+<details>
+<summary>Diff</summary>
+
+```diff
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apis-guru
+  description: The apis.guru REST API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:guest
+  definition:
+-    $text: https://api.apis.guru/v2/openapi.yaml
++    $openapi: https://api.apis.guru/v2/openapi.yaml
+```
+
+</details>
 
 ## Introduction
 
@@ -9,7 +32,7 @@ Creating Open API specs is outside the scope of this documentation. Please see t
 
 Before starting this guide, please...
 
-1.  Prepare an OpenAPI spec to use. Alternatively, you can use one of the [APIs listed on APIs Guru](https://apis.guru/browse-apis/). In the examples below, we will use the [Spotify API Spec](https://api.apis.guru/v2/specs/spotify.com/v1/swagger.yaml).
+1.  Prepare an OpenAPI spec to use. Alternatively, you can use one of the [APIs listed on APIs Guru](https://apis.guru/browse-apis/). In the examples below, we will use the [APIs Guru's openapi spec](https://api.apis.guru/v2/openapi.yaml). Make sure you add `*.apis.guru` to your [allowlist](../../details/backend-reading-allow-list).
 2.  Understand how entities are added to Backstage via YAML definitions. Please read the [Adding Components Guide](../../getting-started/adding-components/) to learn more.
 3.  Track a component in Backstage so we can add an API spec to it.
 
@@ -23,21 +46,21 @@ Create a YAML file called `api-info.yaml` in the root of your component, alongsi
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: spotify
-  description: The official Spotify REST API
+  name: apis-guru
+  description: The apis.guru REST API
 spec:
   type: openapi
   lifecycle: production
-  owner: spotify
+  owner: user:guest
   definition:
-    $text: https://api.apis.guru/v2/specs/spotify.com/v1/swagger.yaml
+    $openapi: https://api.apis.guru/v2/openapi.yaml
 ```
 
 The `API` kind can take many of the normal `spec` properties such as `owner` and `lifecycle`.
 
-The `spec.definition.$text` property **must** point to the remote URL of your OpenAPI spec. 
+The `spec.definition.$openapi` property can point to a remote URL or it can be a relative path to the spec next to the API entity.
 
-_Note that if you are hosting your OpenAPI specs in GitHub and referencing them with the $text property, the link must point to the URL starting with `https://github.com` and not `https://raw.githubusercontent.com`._  
+_Note that if you are hosting your OpenAPI specs in GitHub and referencing them with the $openapi property, the link must point to the URL starting with `https://github.com` and not `https://raw.githubusercontent.com`._
 
 ### Step 2: Add the API to Backstage
 
