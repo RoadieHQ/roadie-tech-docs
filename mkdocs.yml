@@ -7,6 +7,7 @@ plugins:
 nav:
   - Getting started:
       - Installing the GitHub app: 'getting-started/install-github-app/index.md'
+      - Writing catalog entity descriptions: 'getting-started/index.mdwriting-entity-descriptions'
       - Adding components: 'getting-started/adding-components/index.md'
       - Using TechDocs: 'getting-started/technical-documentation/index.md'
       - Adding plugins: 'getting-started/configuring-backstage-plugins/index.md'
