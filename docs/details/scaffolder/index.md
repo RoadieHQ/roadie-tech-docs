@@ -673,7 +673,7 @@ steps:
     name: Log Message
     action: debug:log
     input:
-      message: 'RemoteURL: ${{ steps.publish-repository.output.remoteUrl }}, ${{ steps.publish-repository.output.repoContentsUrl }}!'
+      message: 'RemoteURL: ${{ steps["publish-repository"].output.remoteUrl }}, ${{ steps["publish-repository"].output.repoContentsUrl }}!'
 ```
 
 ### `publish:github:pull-request`
@@ -727,7 +727,7 @@ steps:
     name: Log Message
     action: debug:log
     input:
-      message: 'RemoteURL: ${{ steps.create-pull-request.output.remoteUrl }}, ${{ steps.create-pull-request.output.pullRequestNumber }}!'
+      message: 'RemoteURL: ${{ steps["create-pull-request.output.remoteUrl }}, ${{ steps["create-pull-request"].output.pullRequestNumber }}!'
 ```
 
 ### `publish:bitbucket`
@@ -828,7 +828,7 @@ steps:
     id: register-with-catalog
     name: Manually register with the catalog
     input:
-      repoContentsUrl: ${{ steps.publish-repository.output.repoContentsUrl }}
+      repoContentsUrl: ${{ steps["publish-repository"].output.repoContentsUrl }}
       # catalogInfoPath: catalog-info.yaml # default
       # optional: false # default
 ```
@@ -1186,7 +1186,7 @@ steps:
     id: log-result
     name: Log the result of creating the thing
     input:
-      message: "The response code was ${{ steps.http-request.output.code }}
+      message: "The response code was ${{ steps["http-request"].output.code }}'
 ```
 
 ### Escaping syntax
