@@ -32,7 +32,11 @@ https://<tenant-name>.roadie.so/administration/settings/okta
 
 ## Data
 
-It will ingest a subset of data for all groups and all users in your Okta organisation. 
+It will ingest a subset of data for all groups and all users in your Okta organisation.
+
+## Filter Users and Groups
+
+From the `Okta` settings page, linked above, you can configure a filter for users and groups. This filter query is passed to the `Okta` API and therefore supports the [https://developer.okta.com/docs/reference/api/users/#list-users-with-a-filter](Okta filter language). 
 
 ## References
 
