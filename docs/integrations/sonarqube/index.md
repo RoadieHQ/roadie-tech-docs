@@ -91,7 +91,8 @@ If you are contacting SonarQube via a brokered connection, you need to use the `
   ]
 }
 ```
-
+</details>  
+  
 The expected environment variables with this configuration are:
 * Standard broker env vars.
 * `SONARQUBE_INSTANCE_URL`: The URL as it is visible to your deployed Broker client service
@@ -100,7 +101,6 @@ The expected environment variables with this configuration are:
 For more information how to set up the Broker client and how to use configuration files, take a look at [Broker documentation](../../integrations/broker).
 
 
-</details>
 
 ## References
 
