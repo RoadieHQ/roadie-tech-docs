@@ -53,6 +53,7 @@ nav:
   - Integrations:
       - AWS S3: 'integrations/aws-s3/index.md'
       - Azure DevOps: 'integrations/azure-devops-provider/index.md'
+      - Broker: 'integrations/broker/index.md'
       - Microsoft Graph: 'integrations/ms-graph-org-provider/index.md'
       - Bitbucket: 'integrations/bitbucket/index.md'
       - GitHub Discovery: 'integrations/github-discovery/index.md'
