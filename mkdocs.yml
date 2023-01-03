@@ -90,6 +90,7 @@ nav:
       - Debug template: 'scaffolder-cookbook/debug-template/index.md'
       - Append file: 'scaffolder-cookbook/append/index.md'
       - Re-use Parameters: 'scaffolder-cookbook/global-constants/index.md'
+      - Edit Files: 'scaffolder-cookbook/edit-file/index.md'
   - Tech-Insights:
       - Introduction: 'tech-insights/introduction/index.md'
       - Data Sources: 'tech-insights/data-sources/index.md'
