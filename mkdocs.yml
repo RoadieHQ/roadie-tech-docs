@@ -24,7 +24,6 @@ nav:
       - Catalog graph: 'integrations/catalog-graph/index.md'
       - CircleCI: 'integrations/circleci/index.md'
       - Confluence: 'integrations/confluence/index.md'
-      - Cortex: 'integrations/index.mdcortex'
       - Datadog: 'integrations/datadog/index.md'
       - FireHydrant: 'integrations/firehydrant/index.md'
       - Google Calendar: 'integrations/gcalendar/index.md'
