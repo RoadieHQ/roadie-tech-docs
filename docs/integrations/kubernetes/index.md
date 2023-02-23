@@ -325,6 +325,7 @@ If you would like to run the broker container within a pod in your cluster, you 
 <details>
 
 <Summary>Show broker-kube-manifest.yaml</Summary>
+  
 ```yaml
 ---
 apiVersion: rbac.authorization.k8s.io/v1
@@ -418,6 +419,7 @@ spec:
         - containerPort: 8000
 
 ```
+
 </details>
 
 ## References
