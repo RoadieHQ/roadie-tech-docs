@@ -86,6 +86,8 @@ The spec field contains `owner` and `type`. Owner refers to the Backstage group 
 
 The parameters property is a list of parameters that can be prompted from the user when they run a template. Each array element contains the configuration for a single page of items to be filled by the user running the template. The parameter pages must contain `title`, `required` and `properties`.
 
+The parameters yaml is based on [react-jsonschema-form](https://rjsf-team.github.io/react-jsonschema-form/). You can find the available syntax options there. 
+
 You can choose to break up the parameter prompting into `form steps` or collect all the parameters in one single step.
 Each parameter can be one of a few types: `string`, `number`, `array` or `object`.
 
@@ -628,7 +630,16 @@ steps:
       sourcePatch: './repoRoot'
 ```
 
-Collaborators can be added to the repository using the `collaborators` option. It takes an array of `username` or `team` and `access`. `username` is the GitHub username to allow collaboration. The `access` option gives the user specific type of permissions. The options are `pull`, `push`, `admin`, `maintain` or `triage`.
+Collaborators can be added to the repository using the `collaborators` option. It takes an array of `username` or `team` and `access`. `username` is the GitHub username to allow collaboration. 
+
+The `access` option gives the user specific type of permissions. The options are `pull`, `push`, `admin`, `maintain` or `triage`. these equate to: 
+- pull (read)
+- push (write)
+- triage (triage)
+- admin (admin)
+- maintain (maintain - only for public repos)
+
+The `team` value should be the Github team slug and should not include the org-name as a prefix.
 
 ```yaml
 steps:
@@ -638,10 +649,10 @@ steps:
     input:
       repoUrl: 'github.com?repo=newreponame&owner=AcmeInc'
       collaborators:
-        - username: user1
+        - user: user1
           access: admin
-        - team: RoadieHQ/github-team-name
-          access: admin
+        - team: github-team-name
+          access: pull
 ```
 
 The `topics` allows adding topics to the created repository when its created.
@@ -1086,14 +1097,16 @@ The `github:webhook` action does not have any outputs.
 
 This action allows the Scaffolder task to run an HTTP request against the Backstage Backend API and handle the response. It can be useful for extending the scaffolder to call out to third party APIs. You can do this by configuring a proxy and then calling the proxy with this action.
 
+The path should always point to a proxy entry with the following format: `/proxy/<proxy-path>/<external-api-path>` - i.e.: `/proxy/snyk/org/<some-org>/projects` or `/proxy/circleci/api/projects` (NB: the CircleCI proxy path is `circleci/api/` but Snyk is just `snyk/`)
+
 ```yaml
 steps:
   - action: http:backstage:request
     id: http-request
     name: Create a thing on the acme service
     input:
-      method: POST
-      path: '/api/proxy/acme/thing'
+      method: GET
+      path: '/proxy/snyk/org/<some-org>/project/<some-project-id>'
 ```
 
 You can optionally add request `params`.
@@ -1105,7 +1118,7 @@ steps:
     name: Create a thing on the acme service
     input:
       method: POST
-      path: '/api/proxy/acme/thing'
+      path: '/proxy/acme/thing'
       params:
         state: 'bar'
 ```
@@ -1118,8 +1131,8 @@ steps:
     id: http-request
     name: Create a thing on the acme service
     input:
-      method: POST
-      path: '/api/proxy/acme/thing'
+      method: GET
+      path: '/proxy/circleci/api/projects'
     headers:
       Accept: 'application/json'
 ```
