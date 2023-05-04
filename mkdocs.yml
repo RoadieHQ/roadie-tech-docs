@@ -72,6 +72,7 @@ nav:
       - API docs custom renderers: 'details/custom-api-docs-renderers/index.md'
       - Configure GitHub Enterprise: 'details/github-enterprise/index.md'
       - GitHub app permissions: 'details/github-app-permissions/index.md'
+      - How Roadie connects: 'details/how-roadie-connects/index.md'
       - Managing locations: 'details/location-management/index.md'
       - Modelling dependencies: 'details/showing-dependencies/index.md'
       - Previewing component changes: 'details/previewing-changes/index.md'
