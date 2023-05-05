@@ -1,8 +1,12 @@
 # Roadie Documentation
 
-**Welcome to the Roadie docs.**
+The Roadie documentation is available at https://roadie.io/docs/
 
-Here we will try our best to try get you up to speed on how Roadie works!
+The Roadie docs cover topics like:
 
-## Getting started
-Why not start with [adding a component](getting-started/adding-components/)?
+1. How to configure and set up Roadie.
+2. How to add components to the catalog.
+3. How to add plugins.
+4. How to use the scaffolder.
+
+And much more.
