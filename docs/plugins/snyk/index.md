@@ -48,7 +48,7 @@ Using the Snyk UI, find a Snyk project which you would like to associate with a 
 
 Copy the name from the Project settings
 
-Edit the `catalog-info.yaml` for the component you wish to associate with this Snyk project and add the `snyk.io/org-name` and `snyk.io/project-ids` annotation.
+Edit the `catalog-info.yaml` for the component you wish to associate with this Snyk project and add the `snyk.io/org-id` and either `github.com/project-slug` or `snyk.io/project-ids` annotation.
 
 ```yaml
 apiVersion: backstage.io/v1alpha1
@@ -57,8 +57,8 @@ metadata:
   name: sample-service
   description: Sample service
   annotations:
-    snyk.io/org-name: <Your organization>
-    snyk.io/project-ids: <Your Project ID>
+    snyk.io/org-id: <Your Snyk organization ID>
+    snyk.io/project-ids: <Your Project IDs separated by commas>
 ```
 
 Commit and push this change and Roadie should pick it up within a few minutes.
